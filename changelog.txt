@@ -1,0 +1,15 @@
+0.9
+-----------------------
+I have recently fallen in love with Zero Mission, was disappointed by the lack of map tracking for the rando, took matters into my own hands.
+
+To start, I'm using the images from the preexisting items only tracker.
+
+This is being made solely for the casual audience, similar to my LADX tracker.
+
+1.0
+-----------------------
+It's done!  Let me know if there's anything wrong with it.
+
+It's using the logic from the item-requirement Google Sheet.  I'm aware that it's out-of-date now, but I'll re-impliment it all when the item logic gets re-done.
+
+My next objectives are to make captureable checks and autotracking.

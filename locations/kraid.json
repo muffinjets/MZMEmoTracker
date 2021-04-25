@@ -1,0 +1,311 @@
+[
+    {
+        "name": "Kraid",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "(6, 6)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 32,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, morph, bomb",
+                            "$EnterKraid, morph, powerbomb"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 6)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 71,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $RedDoor"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(13, 2)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 87,
+                        "y": 16
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $Ziplines"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 4)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 71,
+                        "y": 32
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $Ziplines"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "Acid Worm",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 84,
+                        "y": 28
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "If this check's requirements are wrong, MuffinJets#7751 on Discord.",
+                        "access_rules": [
+                            "$EnterKraid, bomb, morph, missile"
+                        ],
+                        "hosted_item": "acidwormitem"
+                    }
+                ]
+            },
+            {
+                "name": "(15, 4)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 104,
+                        "y": 31
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $RedDoor, $BallCannon"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(3, 5)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 8,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $KraidAcidPit"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(7, 12)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 40,
+                        "y": 96
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$KraidSevenTwelve"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(7, 14)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 40,
+                        "y": 112
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $KraidAcidPit"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "Kraid",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 60,
+                        "y": 116
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $KraidAcidPit, $RedDoor"
+                        ],
+                        "hosted_item": "kraiditem"
+                    }
+                ]
+            },
+            {
+                "name": "(8, 15)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 47,
+                        "y": 120
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BeatKraid",
+                            "kraiditem"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(13, 7)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 88,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $RedDoor, speed"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(8, 8)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 48,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $SortaHighTunnel, $BlockChain, $BallJump, $ActiveGravity, $BallSpark"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(7, 9)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 40,
+                        "y": 72
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, grip",
+                            "$EnterKraid, $BallJump, $Ziplines"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(12, 10)",
+                "map_locations": [
+                    {
+                        "map": "kraid",
+                        "x": 80,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterKraid, $KraidAcidPit"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

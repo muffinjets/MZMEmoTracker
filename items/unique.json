@@ -1,0 +1,101 @@
+[
+    {
+      "name": "Morph Ball",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/morphball.png",
+      "codes": "morph"
+    },
+    {
+      "name": "Bomb",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/bomb.png",
+      "codes": "bomb, bombs"
+    },
+    {
+      "name": "Varia Suit",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/variasuit.png",
+      "codes": "varia"
+    },
+    {
+      "name": "Gravity Suit",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/gravitysuit_unknown.png",
+      "codes": "gravity"
+    },
+    {
+      "name": "Long Beam",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/longbeam.png",
+      "codes": "long"
+    },
+    // BEAMS
+    {
+      "name": "Charge Beam",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/chargebeam.png",
+      "codes": "charge"
+    },
+    {
+      "name": "Ice Beam",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/icebeam.png",
+      "codes": "ice"
+    },
+    {
+      "name": "Wave Beam",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/wavebeam.png",
+      "codes": "wave"
+    },
+    {
+      "name": "Plasma Beam",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/plasmabeam_unknown.png",
+      "codes": "plasma"
+    },
+    {
+      "name": "Power Grip",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/powergrip.png",
+      "codes": "grip"
+    },
+    {
+      "name": "High Jump",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/hijump.png",
+      "codes": "hijump, highjump, boots"
+    },
+    {
+      "name": "Speed Booster",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/speedboost.png",
+      "codes": "speed, speedboost"
+    },
+    {
+      "name": "Screw Attack",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/screwattack.png",
+      "codes": "screw"
+    },
+    {
+      "name": "Space Jump",
+      "type": "toggle",
+      "loop": "true",
+      "img": "images/items/spacejump_unknown.png",
+      "codes": "space"
+    }
+  ]

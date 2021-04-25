@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Ice Beam Not Required",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages":[
+            {
+                "img": "images/settings/IBNR.png",
+                "codes": "IBNR",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/IBNR-off.png",
+                "codes": "IBNR-off,IBR",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Plasma Beam Not Required",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/PBNR.png",
+                "codes": "PBNR",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/PBNR-off.png",
+                "codes": "PBNR-off,PBR",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Obtain Unknown Items",
+        "type": "toggle",
+        "img": "images/settings/ObtainUnknownItems.png",
+        "codes": "ObtainUnknownItems,ObtainUnknownItem,PreCharlie"
+    },
+    {
+        "name": "Remove Norfair Vine",
+        "type": "toggle",
+        "img": "images/settings/RemoveVine.png",
+        "codes": "RemoveVine"
+    },
+    {
+        "name": "Prevent Soft Locks",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/PreventSoftLocks.png",
+                "codes": "PreventSoftLocks",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/PreventSoftLocks-off.png",
+                "codes": "PreventSoftLocks-off",
+                "inherit_codes": false
+            }
+        ]
+    },
+    //TRICKS
+    {
+        "name": "Infinite Bomb Jump",
+        "type": "toggle",
+        "img": "images/settings/IBJ.png",
+        "codes": "IBJ"
+    },
+    {
+        "name": "Infinite Wall Jump",
+        "type": "toggle",
+        "img": "images/settings/IWJ.png",
+        "codes": "IWJ"
+    },
+    {
+        "name": "Acid Worm Skip",
+        "type": "toggle",
+        "img": "images/settings/AWS.png",
+        "codes": "AWS"
+    },
+    {
+        "name": "Space Jump Bomb Jump",
+        "type": "toggle",
+        "img": "images/settings/SpaceJBJ.png",
+        "codes": "SpaceJBJ"
+    },
+    {
+        "name": "WaveLess",
+        "type": "toggle",
+        "img": "images/settings/WaveLess.png",
+        "codes": "WaveLess"
+    }
+]

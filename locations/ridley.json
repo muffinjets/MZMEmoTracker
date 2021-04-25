@@ -1,0 +1,446 @@
+[
+    {
+        "name": "ridley",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [          
+            {
+                "name": "(9, 1)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 64,
+                        "y": 15
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterRidley"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(7, 3)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 48,
+                        "y": 32
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyLeftArea"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(4, 6)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 24,
+                        "y": 55
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyLeftArea"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },                      
+            {
+                "name": "(10, 8)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 71,
+                        "y": 72
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyRightArea"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(3, 9)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 15,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyLeftArea, speed, $MissileBlock, grip"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(3, 8)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 15,
+                        "y": 72
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyLeftArea, speed, missile, grip"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(22, 7)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 169,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "This is my least favourite check.",
+                        "access_rules": [
+                            "$RidleyRightArea, speed, $BlockChain, grip",
+                            "$RidleyRightArea, speed, $BlockChain, hijump",
+                            "$RidleyRightArea, speed, $BlockChain, CanSpaceJBJ"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(24, 5)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 184,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyRightArea, speed, $MissileBlock, wave",
+                            "$RidleyRightArea, speed, $MissileBlock, WaveLess"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(16, 6)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 119,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyRightArea, $BlockChain"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(13, 5)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 95,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyCenterArea, $BlockChain"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },          
+            {
+                "name": "(14, 4)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 105,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyCenterArea, $BlockChain, supers"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(12, 5)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 88,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyCenterArea"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(9, 5)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 64,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fee",
+                        "access_rules": [
+                            "$RidleyCenterArea"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(9, 4)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 64,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fi",
+                        "access_rules": [
+                            "$RidleyCenterArea, $CanIBJ",
+                            "$RidleyCenterArea, grip",
+                            "$RidleyCenterArea, hijump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(8, 4)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 56,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fo",
+                        "access_rules": [
+                            "$RidleyCenterArea, $CanIBJ",
+                            "$RidleyCenterArea, grip",
+                            "$RidleyCenterArea, hijump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(8, 5)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 56,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Fum",
+                        "access_rules": [
+                            "$RidleyCenterArea, $CanIBJ",
+                            "$RidleyCenterArea, grip",
+                            "$RidleyCenterArea, hijump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "Ridley",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 52,
+                        "y": 60
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyCenterArea, missile",
+                            "$RidleyCenterArea, supers",
+                            "$RidleyCenterArea, charge"
+                        ],
+                        "hosted_item": "ridleyitem"
+                    }
+                ]
+            },
+            {
+                "name": "(6, 7)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 40,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyCenterArea, missile",
+                            "$RidleyCenterArea, supers",
+                            "$RidleyCenterArea, charge"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(5, 7)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 32,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyCenterArea, missile",
+                            "$RidleyCenterArea, supers",
+                            "$RidleyCenterArea, charge"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 7)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 127,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "This was location #69.  Nice.",
+                        "access_rules": [
+                            "$RidleyCenterArea"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(19, 2)",
+                "map_locations": [
+                    {
+                        "map": "ridley",
+                        "x": 144,
+                        "y": 24
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$RidleyRightArea, $CanIBJ",
+                            "$RidleyRightArea, $ActiveSpace",
+                            "$RidleyRightArea, ice"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

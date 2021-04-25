@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Energy Tanks",
+        "type": "consumable",
+        "img": "images/items/energytank.png",
+        "max_quantity": 12,
+        "codes": "etank, etanks"
+      },
+      {
+        "name": "Missile Capacity",
+        "type": "consumable",
+        "img": "images/items/missile.png",
+        "max_quantity": 250,
+        "increment": 5,
+        "codes": "missile, missiles"
+      },
+      {
+        "name": "Super Missile Capacity",
+        "type": "consumable",
+        "img": "images/items/supermissile.png",
+        "max_quantity": 30,
+        "increment": 2,
+        "codes": "supermissile, supers"
+      },
+      {
+        "name": "Power Bomb Capacity",
+        "type": "consumable",
+        "img": "images/items/powerbomb.png",
+        "max_quantity": 18,
+        "increment": 2,
+        "codes": "powerbomb, power, powerbombs"
+      }
+]

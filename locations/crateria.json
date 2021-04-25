@@ -1,0 +1,153 @@
+[
+    {
+        "name": "Crateria",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "(20, 5)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 152,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterCrateria, $BallJump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(19, 5)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 143,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterCrateria, $BallJump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(22, 2)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 168,
+                        "y": 15
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$CrateriaTwentyTwoTwo"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(14, 16)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 104,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$GetGrip"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 8)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 128,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterCrateria"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(9, 4)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 64,
+                        "y": 32
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "speed, $EnterCrateria, $ActiveGravity",
+                            "speed, powerbombs, $BallCannon"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(21, 5)",
+                "map_locations": [
+                    {
+                        "map": "crateria",
+                        "x": 161,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterCrateria, $BallSpark, IWJ",
+                            "$EnterCrateria, $BallSpark, $ActiveSpace",
+                            "$EnterCrateria, $BallSpark, powerbombs, $CanIBJ"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

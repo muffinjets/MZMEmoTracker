@@ -1,0 +1,442 @@
+[
+    {
+        "name": "Norfair",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "(10, 5)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 63,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterNorfair, $SortaHighTunnel"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(18, 3)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 128,
+                        "y": 24
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$PastVine"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(21, 1)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 151,
+                        "y": 8
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairTwentyoneOne"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(19, 2)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 136,
+                        "y": 16
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$PastVine"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(20, 4)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 144,
+                        "y": 32
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterNorfair, $CanIBJ",
+                            "$EnterNorfair, speed",
+                            "$EnterNorfair, $ActiveSpace",
+                            "$EnterNorfair, ice, hijump",
+                            "$EnterNorfair, ice, grip"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 6)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 72,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairElevenSix"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(14, 6)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 96,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairFourteenSix"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(19, 8)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 135,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HiJumpStatue"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(6, 7)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 32,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BeatRidley, speed",
+                            "$HeatedNorfair, missiles, IWJ",
+                            "$HeatedNorfair, missiles, $CanIBJ",
+                            "$HeatedNorfair, missiles, $ActiveSpace"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(8, 7)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 47,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairEightSeven"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 13)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 72,
+                        "y": 104
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HeatedNorfair, $SortaHighTunnel, $HeatImmune",
+                            "$HeatedNorfair, $SortaHighTunnel, etank"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(13, 13)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 88,
+                        "y": 104
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HeatedNorfair, $HeatImmune",
+                            "$HeatedNorfair, $Energy3"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(10, 12)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 64,
+                        "y": 96
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HeatedNorfair, $BlockChain, $RedDoor"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(21, 11)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 152,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairCaterpillars, $MissileBlock"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },            
+            {
+                "name": "(22, 11)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 160,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterRidley"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(4, 12)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 16,
+                        "y": 96
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairFourTwelve"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(3, 11)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 8,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HeatedNorfair, missile, morph, $ActiveGravity, $CanIBJ",
+                            "$HeatedNorfair, missile, morph, $ActiveGravity, $ActiveSpace"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 10)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 120,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairSeventeenTen"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(15, 10)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 103,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$NorfairFifteenTen"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(22, 8)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 160,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HiJumpStatue, $CanIBJ",
+                            "$HiJumpStatue, hijump, grip, morph",
+                            "$HiJumpStatue, $ActiveSpace, grip, morph"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(10, 6)",
+                "map_locations": [
+                    {
+                        "map": "norfair",
+                        "x": 63,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterNorfair, $SortaHighTunnel"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,410 @@
+[
+    {
+        "name": "Brinstar",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "(0,15)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 7,
+                        "y": 112
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/items/morphball.png",
+                        "chest_opened_img": "images/items/morphballgray.png",
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(14, 12)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 120,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, missile"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(16, 12)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 135,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 7)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 144,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, $RedDoor"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(22, 8)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 185,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, $RedDoor"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(24, 8)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 199,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, $RedDoor"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(24, 6)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 199,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, $RedDoor"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(23, 6)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 191,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BallJump, $RedDoor, bomb",
+                            "$BallJump, $RedDoor, powerbomb"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(23, 4)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 191,
+                        "y": 23
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BombBlock, $BallJump",
+                            "$RedDoor, $ActiveSpace",
+                            "$RedDoor, ice, hijump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(16, 3)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 136,
+                        "y": 16
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BrinstarSixteenThree"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 3)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 96,
+                        "y": 15
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$HighTunnelWithWall, PreventSoftLocks-off",
+                            "$HighTunnelWithWall, screw",
+                            "$HighTunnelWithWall, bomb",
+                            "$HighTunnelWithWall, hijump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 10)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 144,
+                        "y": 72
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, $RedDoor, $BombBlock, PreventSoftlocks-off",
+                            "morph, $RedDoor, $BombBlock, PreventSoftlocks, bomb"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(9, 11)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 79,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, $BombBlock"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(9, 12)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 79,
+                        "y": 88
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BallSpark"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(7, 15)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 63,
+                        "y": 112
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$CanIBJ",
+                            "morph, speed",
+                            "ice",
+                            "$ActiveSpace"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(5, 14)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 48,
+                        "y": 103
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BallCannon"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 12)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 96,
+                        "y": 87
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BlockChain"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(14, 2)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 119,
+                        "y": 8
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BallJump, $BlockChain, $RedDoor, $CanIBJ",
+                            "$BallJump, $BlockChain, $RedDoor, grip, $ActiveSpace",
+                            "$BallJump, $BlockChain, $RedDoor, hijump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(6, 6)",
+                "map_locations": [
+                    {
+                        "map": "brinstar",
+                        "x": 55,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "morph, PreventSoftLocks-off",
+                            "morph, PreventSoftLocks, bombs",
+                            "morph, PreventSoftLocks, long",
+                            "morph, PreventSoftLocks, wave",
+                            "morph, PreventSoftLocks, $ActivePlasma",
+                            "morph, PreventSoftLocks, missile",
+                            "morph, PreventSoftLocks, supers",
+                            "morph, PreventSoftLocks, powerbombs"
+
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

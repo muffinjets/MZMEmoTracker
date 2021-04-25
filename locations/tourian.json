@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Tourian",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "Mother Brain",
+                "map_locations": [
+                    {
+                        "map": "tourian",
+                        "x": 24,
+                        "y": 95
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$BeatKraid, $BeatRidley, ice",
+                            "$BeatKraid, $BeatRidley, IBNR"
+                        ],
+                        "hosted_item": "motherbrainitem"
+                    }
+                ]
+            },
+            {
+                "name": "(19, 12)",
+                "map_locations": [
+                    {
+                        "map": "tourian",
+                        "x": 24,
+                        "y": 103
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, powerbombs, supers, $BeatBrain"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 11)",
+                "map_locations": [
+                    {
+                        "map": "tourian",
+                        "x": 8,
+                        "y": 95
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, powerbombs, supers, speed, $BeatBrain"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

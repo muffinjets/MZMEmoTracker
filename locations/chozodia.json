@@ -1,0 +1,397 @@
+[
+    {
+        "name": "Chozodia",
+        "chest_unopened_img": "images/check.png",
+        "chest_opened_img": "images/checkgray.png",
+        "color": "#00CC00",
+        "children": [
+            {
+                "name": "Charlie",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 47,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia"
+                        ],
+                        "hosted_item": "charlieitem"
+                    }
+                ]
+            },
+            {
+                "name": "(10, 8)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 79,
+                        "y": 72
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, $ActiveGravity, speed"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(10, 7)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 79,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, $MissileBlock, $BallJump"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(17, 8)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 135,
+                        "y": 72
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Honestly the sickest check in the game",
+                        "access_rules": [
+                            "$EnterChozodia, $ActiveGravity, speed, IWJ, $MissileBlock, morph",
+                            "$EnterChozodia, $ActiveGravity, speed, $ActiveSpace, $MissileBlock, morph",
+                            "$EnterChozodia, $ActiveGravity, speed, IWJ, screw",
+                            "$EnterChozodia, $ActiveGravity, speed, $ActiveSpace, screw"
+                            
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(11, 13)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 87,
+                        "y": 112
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$ChozodiaElevenThirteen"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(14, 5)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 112,
+                        "y": 48
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$UpperPirateShip"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(15, 4)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 120,
+                        "y": 40
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$UpperPirateShip, powerbombs, $CanIBJ",
+                            "$UpperPirateShip, powerbombs, $ActiveSpace"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(18, 7)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 144,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$UpperPirateShip, supers",
+                            "$UpperPirateShip, powerbombs"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(20, 7)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 160,
+                        "y": 64
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$ChozodiaTwentySeven"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(10, 18)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 80,
+                        "y": 152
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, powerbombs, speed"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(6, 21)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 48,
+                        "y": 176
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, powerbombs, $SortaHighTunnel"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(4, 21)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 32,
+                        "y": 176
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, powerbombs, $SortaHighTunnel"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(4, 18)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 32,
+                        "y": 152
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$ChozodiaFourEighteen"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(7, 19)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 56,
+                        "y": 160
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, $MissileBlock, morph"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(10, 9)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 79,
+                        "y": 80
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterChozodia, morph, powerbomb, $MissileBlock"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(15, 13)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 120,
+                        "y": 112
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Cool People Spark Up Here",
+                        "access_rules": [
+                            "$EnterChozodia, powerbombs, speed",
+                            "$EnterChozodia, powerbombs, $CanIBJ",
+                            "$EnterChozodia, powerbombs, $ActiveSpace"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(21, 15)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 168,
+                        "y": 127
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterPirateShip, powerbombs, missile"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(26, 14)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 208,
+                        "y": 119
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$EnterPirateShip, powerbombs, missile, supers"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            },
+            {
+                "name": "(22, 2)",
+                "map_locations": [
+                    {
+                        "map": "chozodia",
+                        "x": 177,
+                        "y": 24
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "",
+                        "access_rules": [
+                            "$UpperPirateShip, speed"
+                        ],
+                        "item_count": 1,
+                        "capture_item": true
+                    }
+                ]
+            }
+        ]
+    }
+]

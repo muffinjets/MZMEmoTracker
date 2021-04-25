@@ -1,0 +1,300 @@
+{
+    "item_grid": {
+        "type": "itemgrid",
+        "h_alignment": "stretch",
+        "item_margin": "4,4",
+        "rows": [
+            ["etanks","missile","supers","powerbomb"],
+            ["morph","bomb","varia","gravity"],
+            ["long","charge","ice","wave","plasma"],
+            ["grip","boots","speed","screw","space"]
+        ]
+    },
+    "boss_grid": {
+        "type": "itemgrid",
+        "h_alignment": "stretch",
+        "item_margin": "4,4",
+        "rows": [
+            ["acidwormitem"],
+            ["kraiditem"],
+            ["ridleyitem"],
+            ["charlieitem"]
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "margin": "5",
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings and Enabled Tricks",
+                "content": [
+                    {
+                        "type": "item",
+                        "item": "IBNR"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 30, 0, 0",
+                        "item": "PBNR"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 60, 0, 0",
+                        "item": "ObtainUnknownItem"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 90, 0, 0",
+                        "item": "RemoveVine"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 120, 0, 0",
+                        "item": "PreventSoftlocks"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 150, 0, 0",
+                        "item": "IBJ"
+                    },
+                    {
+                        "type": "item",
+                        "margin": "0, 180, 0, 0",
+                        "item": "IWJ"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 210, 0, 0",
+                        "item": "AWS"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 240, 0, 0",
+                        "item": "SpaceJBJ"
+                    },
+                    {
+                        "type": "item",
+                        "margin":"0, 270, 0, 0",
+                        "item": "WaveLess"
+                    }
+                ]
+            }
+        ]
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#28622e",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,3,0",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#50212121",
+                                "layout": "settings_grid"
+                            },
+                            "content": {
+                                "type": "layout",
+                                "key": "item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinnned Locations",
+                            "dock": "left",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,0,0",
+                    "content": [
+                        {
+                            "type": "tabbed",
+                            "dock": "top",
+                            "tabs": [
+                                {
+                                    "title": "Brinstar",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["brinstar"]
+                                    }
+                                },
+                                {
+                                    "title": "Chozodia",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["chozodia"]
+                                    }
+                                },
+                                {
+                                    "title": "Crateria",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["crateria"]
+                                    }
+                                },
+                                {
+                                    "title": "Kraid",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["kraid"]
+                                    }
+                                },
+                                {
+                                    "title": "Norfair",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["norfair"]
+                                    }
+                                },
+                                {
+                                    "title": "Ridley",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["ridley"]
+                                    }
+                                },
+                                {
+                                    "title": "Tourian",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["tourian"]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_vertical": {
+        "type": "container",
+        "background": "#28622e",
+        "content": {
+            "type": "dock",
+            "dropshadow": false,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "margin": "0,0,3,0",
+                    "content": [
+                      {
+                          "type": "group",
+                          "header": "Items",
+                          "header_content": {
+                              "type": "button_popup",
+                              "style": "settings",
+                              "popup_background": "#50212121",
+                              "layout": "settings_grid"
+                          },
+                          "content": {
+                              "type": "layout",
+                              "key": "item_grid"
+                          }
+                      },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "dock": "right",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                  },
+                  {
+                      "type": "dock",
+                      "v_alignment":"stretch",
+                      "margin": "0,0,0,0",
+                      "content": [
+                          {
+                              "type": "tabbed",
+                              "dock": "top",
+                              "tabs": [
+                                  {
+                                      "title": "Brinstar",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["brinstar"]
+                                      }
+                                  },
+                                  {
+                                      "title": "Chozodia",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["chozodia"]
+                                      }
+                                  },
+                                  {
+                                      "title": "Crateria",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["crateria"]
+                                      }
+                                  },
+                                  {
+                                      "title": "Kraid",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["kraid"]
+                                      }
+                                  },
+                                  {
+                                      "title": "Norfair",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["norfair"]
+                                      }
+                                  },
+                                  {
+                                      "title": "Ridley",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["ridley"]
+                                      }
+                                  },
+                                  {
+                                      "title": "Tourian",
+                                      "content": {
+                                          "type": "map",
+                                          "maps": ["tourian"]
+                                      }
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          }
+    }
+}
